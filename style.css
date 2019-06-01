@@ -33,13 +33,10 @@ width: 100%;
 
 h1{
     padding: 20px;
-    text-align: ;
-    width: 100%;
+    
+ 
     width: 120%;
     background: black;
-    
-    
-    
 }
 
 #phead {
@@ -50,9 +47,22 @@ h1{
     
 }
 
+nav{
+    padding: 20px;
+    width: 120%;
+    color: #777;
+    background-color: #ebebeb;
+}
+
+.nav{
+    padding-right: 107px;
+    float: right;
+    
+}
 
 
 section{
+    clear: both;
     text-align: center;
     background-color: #ebebeb;
     padding-top: 25px;
