@@ -25,20 +25,29 @@ h1, p {
 }
 
 header {
-    
-
 background-color: #ebebeb;
 color: #777;
-padding-top: 25px;
-padding-bottom: 25px;
+width: 100%;
+
 }
 
 h1{
+    padding: 20px;
+    text-align: ;
+    width: 100%;
+    width: 120%;
+    background: black;
+    
+    
     
 }
 
 #phead {
-padding-top: 2px;
+
+    
+    padding-left: 107px;
+    padding-right: 960px;
+    
 }
 
 
