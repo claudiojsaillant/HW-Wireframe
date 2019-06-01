@@ -35,27 +35,30 @@ h1{
     padding: 20px;
     
  
-    width: 120%;
+    width: 40%;
     background: black;
 }
 
 #phead {
 
     
-    padding-left: 107px;
+    padding-left: 320px;
     padding-right: 960px;
     
 }
 
-nav{
+nav li{
     padding: 20px;
-    width: 120%;
-    color: #777;
+}
+
+nav ul{
+    display: inline-block;
     background-color: #ebebeb;
+    display: flex;
 }
 
 .nav{
-    padding-right: 107px;
+    padding-right: 320px;
     float: right;
     
 }
