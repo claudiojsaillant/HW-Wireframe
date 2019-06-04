@@ -33,13 +33,12 @@ width: 100%;
 }
 
 h1{
+    font-weight: bold;
     padding-top:25px;
     padding-bottom: 25px;
     text-align: center;
-    
- 
-    
-    background: black;
+
+    background-color: antiquewhite;
 }
 
 #phead {
@@ -70,7 +69,7 @@ section{
     clear: both;
     
     background-color: #ebebeb;
-    padding-top: 25px;
+    padding-top: 30px;
     padding-bottom: 25px;
     width: 960px;
     
@@ -79,7 +78,8 @@ section{
 }
 .sectioncont {
     padding-top: 30px;
-    
+    margin-bottom: -50px;
+   
     
 }
 
@@ -87,7 +87,7 @@ img {
 
 padding-left:25px;
 padding-right:20px;
-padding-bottom:10px;
+padding-top:8px;
 float: left;
 width: 150px;
 height: 130px;
@@ -96,10 +96,10 @@ height: 130px;
 
 #topsecp{
     font-size: 20px;
-    color: red;
-    padding-top: 15px;
+    font-weight: bold;
+    color: #777;
     padding-left: 25px;
-    padding-bottom: 35px;
+    padding-bottom: 30px;
 }
 
 .sectioncont p {
@@ -119,16 +119,29 @@ footer {
     color: #777;
     padding-top: 25px;
     padding-bottom: 25px;
-    position: relative;
-    bottom: -20px;
-
+    position: fixed;
+    bottom: -1%;    
 }
 
-#footer {
-    
-   
+#divbar {
+    background: antiquewhite;
+    position: fixed;
+    bottom: 10%;
+    width: 100%;
+    color: blue;
+    height: 15px;
 }
 
+a {
+    color: #777;
+    text-decoration: none;
+}
 
+a:visited {
+    text-decoration: none;
+}
 
-
+a:hover {
+    font-size: 20px;
+    color: red;
+}
