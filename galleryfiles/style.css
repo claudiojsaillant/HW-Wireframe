@@ -1,0 +1,153 @@
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    font-size: 18px;
+    background: #777;
+    line-height: 160%;
+   
+}
+
+header, nav, section, aside, footer{
+    color: #ebebeb;
+    background: #777;
+}
+
+
+article {
+    color: #ebebeb;
+    background-attachment: #777;
+}
+
+h1, p {
+    color: #777;
+    background: #ebebeb;
+}
+
+header {
+background-color: #ebebeb;
+color: #777;
+width: 100%;
+
+}
+
+h1{
+    font-weight: bold;
+    padding-top:25px;
+    padding-bottom: 25px;
+    text-align: center;
+
+    background-color: antiquewhite;
+}
+
+#phead {
+
+    width: 13%;
+    padding-left: 194px;
+    padding-right: 960px;
+    
+}
+
+nav li{
+    padding: 25px;
+}
+
+nav ul{
+    display: inline-block;
+    background-color: #ebebeb;
+    display: flex;
+}
+
+.nav{
+    padding-right: 156.5px;
+    float: right;
+}
+
+
+section{
+    clear: both;
+    background-color: #ebebeb;
+    padding-bottom: 25px;
+    width: 960px;
+    margin: 0 auto;
+}
+.sectioncont {
+    padding-top: 15px;
+    margin-bottom: -50px;
+}
+
+img {
+
+
+
+}
+
+
+
+
+
+
+footer {
+    clear: both;
+    width: 100%;
+    text-align: center;
+    background-color: #ebebeb;
+    color: #777;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    position: fixed;
+    bottom: -1%;    
+}
+
+#divbar {
+    background: antiquewhite;
+    position: fixed;
+    bottom: 10%;
+    width: 100%;
+    color: blue;
+    height: 15px;
+}
+
+a {
+    color: #777;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: 20px;
+    color: red;
+}
+
+img {
+    text-align: center;
+}
+div.polaroid {
+    width: 40%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom:0px;
+  }
+  
+  div.container {
+    text-align: center;
+    
+  }
+
+  .imgfloat1 {
+      width: 50%;
+      float: left;
+  }
+
+  .imgfloat2 {
+      width: 50%;
+      float: right;
+  }
+
+ footer {
+    clear: both;
+  }
