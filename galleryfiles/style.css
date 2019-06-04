@@ -137,17 +137,20 @@ div.polaroid {
       padding-top: 10px;
       padding-left: 55px;
   }
-.imgfloat1 {
-    padding: 20px;
 
-}
- .imgfloat2{
-    padding: 20px;
+ .imgfloat{
+    
 }
   
   div.container {
     text-align: center;
     padding: 10px 20px;
+    
+  }
+
+#move {
+      padding-left: 20px;
+      
   }
 
  
@@ -158,6 +161,6 @@ div.polaroid {
 
   .sectioncont p {
       text-align: center;
-      padding: 10px;
+      padding: 20px;
       font-weight: bold;
   }
