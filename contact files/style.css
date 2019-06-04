@@ -1,0 +1,183 @@
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    font-size: 18px;
+    background: #777;
+    line-height: 160%;
+   
+}
+
+header, nav, section, aside, footer{
+    color: #ebebeb;
+    background: #777;
+}
+
+
+article {
+    color: #ebebeb;
+    background-attachment: #777;
+}
+
+h1, p {
+    color: #777;
+    background: #ebebeb;
+}
+
+header {
+background-color: #ebebeb;
+color: #777;
+width: 100%;
+
+}
+
+h1{
+    font-weight: bold;
+    padding-top:25px;
+    padding-bottom: 25px;
+    text-align: center;
+
+    background-color: antiquewhite;
+}
+
+#phead {
+
+    width: 13%;
+    padding-left: 194px;
+    padding-right: 960px;
+    
+}
+
+nav li{
+    padding: 25px;
+}
+
+nav ul{
+    display: inline-block;
+    background-color: #ebebeb;
+    display: flex;
+}
+
+.nav{
+    padding-right: 156.5px;
+    float: right;
+}
+
+
+section{
+    clear: both;
+    background-color: #ebebeb;
+    padding-bottom: 25px;
+    width: 960px;
+    margin: 0 auto;
+}
+.sectioncont {
+    padding-top: 15px;
+    margin-bottom: -50px;
+}
+
+img {
+
+padding-left:25px;
+padding-right:20px;
+padding-top:8px;
+float: left;
+width: 150px;
+height: 130px;
+
+}
+
+#topsecp{
+    font-size: 20px;
+    font-weight: bold;
+    color: #777;
+    padding-left: 25px;
+    padding-bottom: 30px;
+}
+
+.sectioncont p {
+    font-size: 15px;
+    padding-left: 20px
+
+}
+
+
+
+
+footer {
+    clear: both;
+    width: 100%;
+    text-align: center;
+    background-color: #ebebeb;
+    color: #777;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    position: fixed;
+    bottom: -1%;    
+}
+
+#divbar {
+    background: antiquewhite;
+    position: fixed;
+    bottom: 10%;
+    width: 100%;
+    color: blue;
+    height: 15px;
+}
+
+a {
+    color: #777;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: 20px;
+    color: red;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  label {
+      color: #777;
+  }
+
+  .container {
+      padding-bottom: 80px
+  }
