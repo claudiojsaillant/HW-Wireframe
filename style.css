@@ -5,6 +5,7 @@ body{
     color: #777;
     font-size: 18px;
     background: #777;
+    line-height: 160%;
    
 }
 
@@ -32,17 +33,19 @@ width: 100%;
 }
 
 h1{
-    padding: 20px;
+    padding-top:25px;
+    padding-bottom: 25px;
+    text-align: center;
     
  
-    width: 40%;
+    
     background: black;
 }
 
 #phead {
 
-    
-    padding-left: 320px;
+    width: 13%;
+    padding-left: 156.5px;
     padding-right: 960px;
     
 }
@@ -58,15 +61,14 @@ nav ul{
 }
 
 .nav{
-    padding-right: 320px;
+    padding-right: 156.5px;
     float: right;
-    
 }
 
 
 section{
     clear: both;
-    text-align: center;
+    
     background-color: #ebebeb;
     padding-top: 25px;
     padding-bottom: 25px;
@@ -76,11 +78,35 @@ section{
     
 }
 .sectioncont {
-    padding-top: 16px;
-
+    padding-top: 30px;
+    
     
 }
 
+img {
+
+padding-left:25px;
+padding-right:20px;
+padding-bottom:10px;
+float: left;
+width: 150px;
+height: 130px;
+
+}
+
+#topsecp{
+    font-size: 20px;
+    color: red;
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-bottom: 35px;
+}
+
+.sectioncont p {
+    font-size: 15px;
+    padding-left: 20px
+
+}
 
 
 
